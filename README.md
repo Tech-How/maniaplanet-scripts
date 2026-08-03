@@ -32,4 +32,4 @@ If you're trying to play extremely old maps and your car is falling through the 
 6. Once done, you can move your other maps back.
 7. The old map files will be permanently overwritten.
 
-(MP4 just means Maniaplanet 4, the 4th version of the game engine.)
+(MP4 just means Maniaplanet 4, the 4th version of the game engine. Also, there's normally no reason to change Lightmap quality unless you're having issues, in which case you can change to Medium or Low. Low is useful in the track editor for quickly computing large maps to play test them before re-computing as High and publishing.)
