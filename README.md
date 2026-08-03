@@ -2,7 +2,7 @@
 A collection of my personal scripts and tools for Maniaplanet/Trackmania.
 
 ## Download Map Dependencies.ps1
-Most TM maps you’ll find download external resources like signs, sound effects, texture mods, etc. **Eventually, these links die, permanently killing old community maps.** If you want to preserve data for a map to play it in perpetuity without relying on these links to remain available, you can download the external resources for your maps to your Maniaplanet user folder. This script helps automate that. Just download the file and save it as `.ps1`.
+Most TM maps you’ll find download external resources like signs, sound effects, texture mods, etc. **Eventually, these links die, permanently killing old community maps.** If you want to help preserve data for a map to play it in perpetuity without relying on these links to remain available, you can download the external resources for your maps to your Maniaplanet user folder. This script helps automate that. Just download the file and save it as `.ps1`.
 ### Usage Instructions:
 1. Download and save `Download Map Dependencies.ps1` somewhere.
 2. Open the file with Notepad, and look for this section near the top: `$ManiaplanetDocuments = ""`. Edit it to look like this: `$ManiaplanetDocuments = "C:\Users\<username>\Documents\Maniaplanet"`. You can copy the Maniaplanet folder path from the top of your Windows Explorer to find it.
