@@ -1,2 +1,18 @@
-# maniaplanet-scripts
+# Maniaplanet Scripts
 A collection of my personal scripts and tools for Maniaplanet/Trackmania.
+
+## Download Map Dependencies.ps1
+Most TM maps you’ll find download external resources like signs, sound effects, texture mods, etc. **Eventually, these links die, permanently killing old community maps.** If you want to preserve data for a map to play it in perpetuity without relying on these links to remain available, you can download the external resources for your maps to your Maniaplanet user folder. This script helps automate that. Just download the file and save it as `.ps1`.
+### Usage Instructions:
+1. Download and save `Download Map Dependencies.ps1` somewhere.
+2. Open the file with Notepad, and look for this section near the top: `$ManiaplanetDocuments = ""`. Edit it to look like this: `$ManiaplanetDocuments = "C:\Users\<username>\Documents\Maniaplanet"`. You can copy the Maniaplanet folder path from the top of your Windows Explorer to find it.
+4. Close the editor.
+5. Create a new text file right next to the script, called `download_deps` or `download_deps.txt`, if you have file extensions showing.
+6. Open that file, and paste the `<dep>` lines from your map here.
+7. Close the file.
+8. **Finally, right-click on the PowerShell script, and select "Run with PowerShell".** The script will download all available data for the map and merge it into your Maniaplanet user data.
+
+### How to find the `<dep>` links:
+1. Download and install [GbxDump](https://github.com/Electron-x/GbxDump/releases).
+2. Open your map file with GbxDump, look for the lines, and copy them.
+3. Paste them into `download_deps.txt`.
